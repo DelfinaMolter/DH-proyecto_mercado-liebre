@@ -1,0 +1,50 @@
+/* ENCABEZADO */
+header {
+    background-color :#EAC926;
+    font-family:'Roboto', sans-serif;
+}
+.mensaje{
+    text-align: center;
+}
+.burger-menu{
+    text-align: center; 
+      
+}
+button {
+    background-color:#1259c3;
+    color:white;
+}
+
+/* CUERPO  */
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+
+/* PIE DE PAGINA */
+footer{
+    font-family:'Roboto', sans-serif;
+}
+
+footer section{
+    text-align: center;
+}
+
+.iconosFooder{
+    color:#1259c3;
+    font-size: 2em;
+    margin:0, 0, 10px;
+}
