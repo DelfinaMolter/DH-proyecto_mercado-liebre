@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/register.css" rel="stylesheet">
+</head>
+<body>
+    <form action="/" method="POST" class="form">
+        <fieldset class="form__div">
+            <legend> Datos del usuario </legend>
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" class="form__div__input">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" class="form__div__input">
+            <label for="fehca">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" class="form__div__input"> 
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio" class="form__div__input">
+        </fieldset>
+        <fieldset class="form__div">
+            <legend> Perfil del usuario: </legend>
+            <input type="radio" id="comprar" name="perfil" value="comprar" >
+            <label for="comprar">Comprar</label>
+            <input type="radio" id="vender" name="perfil" value="vender">
+            <label for="vender">Vender</label>
+        </fieldset>
+        <fieldset class="form__div">
+            <legend> Categorías de interés: </legend>
+            <input type="checkbox" id="electro" name="categoria" value="electro">
+            <label for="electro">Electro</label>
+            <input type="checkbox" id="moda" name="categoria" value="moda">
+            <label for="moda">Moda</label>
+            <input type="checkbox" id="hogar" name="categoria" value="hogar">
+            <label for="hogar">Hogar</label>
+            <input type="checkbox" id="jugueteria" name="categoria" value="jugueteria">
+            <label for="jugueteria">Juguetería</label>
+            <input type="checkbox" id="vida-sana" name="categoria" value="vida-sana">
+            <label for="vida-sana">Vida sana</label>
+        </fieldset>
+        <fieldset class="form__div">
+            <legend> Elegí una imagen de perfil: </legend>
+            <input type="file" name="avatar" accept=".jpg, .svg" >
+        </fieldset>
+        <fieldset class="form__div">
+            <legend> Crea tu contraseña </legend>
+            <label for="password"> Ingresa tu contraseña: </label>
+            <input type="password" name="password" id="password" class="form__div__input">
+            <label for="password-confirm"> Ingresa nuevamente tu contraseña:</label>
+            <input type="password" name="password" id="password-confirm" class="form__div__input">
+        </fieldset>
+        <button type="reset" class="form__botones">Borrar</button>
+        <button type="submit" class="form__botones">Enviar</button>
+    </form> 
+</body>
+</html>
