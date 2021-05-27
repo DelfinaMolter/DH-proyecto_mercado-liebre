@@ -1,0 +1,17 @@
+.form{
+    padding: 20px;
+}
+
+.form__div{
+    margin:20px;
+}
+.form__div label{
+    display:block;
+}
+
+.form__div__input{
+    width:100%;
+}
+.form__botones{
+    margin:20px 0px 20px 20px;
+}
